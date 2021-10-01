@@ -1,0 +1,8 @@
+Bharat,41375835,Single,Economy,Norway,1234567890536577,332,2021-04-24,2021-04-25,500,Bharatpremkumar@gmail.com
+Per,22345623,Single,Economy,Norway,9999444421124433,231,2021-04-24,2021-04-25,500,Per_olsen@gmail.com
+Ola,22321212,Couple,Economy,Norway,4444555533332323,334,2021-04-24,2021-04-30,1000,Olanord@hotmail.com
+Pia,22122233,Family,Delux,United Kingdom,4212425567868009,121,2021-04-24,2021-04-30,8000,pia@outlock.com
+James,41232123,Family,Comfort,United States,4430129532039432,225,2021-04-27,2021-05-01,4000,Piers@gmail.com
+Frida,41223200,Single,Economy,Sweden,4567809912343,212,2021-04-26,2021-04-30,500,frida08@gmail.com
+Kristian,22343454,Couple,Comfort,Norway,4567987600001234,324,2021-04-26,2021-04-30,2000,KristianShell@gmail.com
+Sander,12345678,Single,Delux,Norway,4555555555555555,999,2021-05-09,2021-05-20,2000,sander@gmail.com

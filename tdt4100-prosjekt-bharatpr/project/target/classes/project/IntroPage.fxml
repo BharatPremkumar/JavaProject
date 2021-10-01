@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.IntroPageController">
+   <children>
+      <AnchorPane layoutX="-12.0" layoutY="-14.0" prefHeight="800.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="800.0" fitWidth="600.0" layoutX="11.0" layoutY="7.0" pickOnBounds="true">
+               <image>
+                  <Image url="@NorthenLights.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="206.0" layoutY="651.0" mnemonicParsing="false" onAction="#handelButtonAction" prefHeight="51.0" prefWidth="218.0" style="-fx-background-color: #0277bd; -fx-border-radius: 50; -fx-background-radius: 50;" text="View Reservation" textAlignment="CENTER" textFill="#362121c7">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Text fill="#b94444" layoutX="206.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" wrappingWidth="253.140380859375">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Text>
+            <Text fill="#b94444" layoutX="287.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To">
+               <font>
+                  <Font size="51.0" />
+               </font>
+            </Text>
+            <Text fill="#b94444" layoutX="167.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotel Nordic" wrappingWidth="333.94036865234375">
+               <font>
+                  <Font size="57.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

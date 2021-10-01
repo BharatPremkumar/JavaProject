@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.OverViewHotelController">
+   <children>
+      <AnchorPane layoutX="-3.0" prefHeight="800.0" prefWidth="1000.0">
+         <children>
+            <Pane layoutX="-1.0" prefHeight="800.0" prefWidth="208.0" style="-fx-background-color: #0277bd;">
+               <children>
+                  <Text fill="#b76e6e" layoutX="82.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTEL NORDIC" textAlignment="CENTER" wrappingWidth="17.839841842651367">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="224.0" layoutY="13.0" opacity="0.9" prefHeight="774.0" prefWidth="761.0" style="-fx-border-color: black; -fx-background-color: #0277bd #0277bd;">
+               <children>
+                  <Text layoutX="294.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Info">
+                     <font>
+                        <Font name="System Bold" size="35.0" />
+                     </font>
+                  </Text>
+                  <Line endX="664.6000366210938" endY="7.62939453125E-6" layoutX="97.0" layoutY="104.0" startX="-96.99998474121094" startY="7.62939453125E-6" />
+                  <ImageView fitHeight="667.0" fitWidth="763.0" layoutY="105.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@NorthenLights.jpg" />
+                     </image>
+                  </ImageView>
+                  <Line endX="262.0" endY="75.39999389648438" layoutX="107.0" layoutY="114.0" startX="-14.4000244140625" startY="75.39999389648438" />
+                  <GridPane layoutX="150.0" layoutY="219.0" opacity="0.75" prefHeight="444.0" prefWidth="536.0" style="-fx-background-color: white;">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="278.39996337890625" minWidth="10.0" prefWidth="268.79998779296875" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="273.60003662109375" minWidth="10.0" prefWidth="267.20001220703125" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
